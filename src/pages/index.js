@@ -124,7 +124,6 @@ const HomeIndex = () => {
               <form
                 name="contact-form"
                 method="post"
-                action="#"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
               >
