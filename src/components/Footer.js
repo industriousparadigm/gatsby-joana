@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => (
   <div id="footer">
     <div className="inner">
-      <ul className="icons">
+      {/* <ul className="icons">
         <li>
           <a href="#" className="icon fa-twitter">
             <span className="label">Twitter</span>
@@ -24,7 +24,7 @@ const Footer = () => (
             <span className="label">Email</span>
           </a>
         </li>
-      </ul>
+      </ul> */}
       <ul className="copyright">
         <li>&copy; Gatsby Starter Strata</li>
         <li>

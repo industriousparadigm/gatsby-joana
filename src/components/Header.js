@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../assets/images/masks/00-circle.png'
 
 const Header = () => (
   <header id="header">
@@ -10,11 +10,9 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>I am Strata</strong>, a super simple
-        <br />
-        responsive site template freebie
-        <br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
+        <strong>Olá, sou a Joana</strong>, e queria <br />
+        mostrar aqui as máscaras que tenho <br />
+        andado a fazer durante o castigo.
       </h1>
     </div>
     <Footer />

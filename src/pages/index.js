@@ -1,68 +1,67 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
+import mask01 from '../assets/images/masks/01.jpeg'
+import mask02 from '../assets/images/masks/02.jpeg'
+import mask03 from '../assets/images/masks/03.jpeg'
+import mask04 from '../assets/images/masks/04.jpeg'
+import mask06 from '../assets/images/masks/06.jpeg'
+import mask07 from '../assets/images/masks/07.jpeg'
 
 const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: full01,
-    thumbnail: thumb01,
-    caption: 'Photo 1',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    source: mask01,
+    thumbnail: mask01,
+    caption: 'Fitando o horizonte',
+    description:
+      'Neste dia estava pensativa. Considerei esquecer toda esta situação e ir a casa da Mariana.',
   },
   {
     id: '2',
-    source: full02,
-    thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    source: mask02,
+    thumbnail: mask02,
+    caption: 'O Justiceiro',
+    description:
+      'Com este trabalho senti-me muito próxima dos cowboys de outrora.',
   },
   {
     id: '3',
-    source: full03,
-    thumbnail: thumb03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    source: mask03,
+    thumbnail: mask03,
+    caption: 'O Justiceiro',
+    description: 'Amarelo é a melhor cor!',
   },
   {
     id: '4',
-    source: full04,
-    thumbnail: thumb04,
-    caption: 'Photo 4',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    source: mask06,
+    thumbnail: mask06,
+    caption: 'Sortido',
+    description:
+      'Máscaras para todos os gostos. Pena foi ter que usar todas as cortinas que tinha em casa. Por sorte, sobram as persianas.',
   },
   {
     id: '5',
-    source: full05,
-    thumbnail: thumb05,
-    caption: 'Photo 5',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    source: mask04,
+    thumbnail: mask04,
+    caption: 'O Justiceiro',
+    description: 'A bolsa ou a vida!',
   },
   {
     id: '6',
-    source: full06,
-    thumbnail: thumb06,
-    caption: 'Photo 6',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    source: mask07,
+    thumbnail: mask07,
+    caption: 'José Cid',
+    description:
+      'Com este look, espero apelar aos que gostam de um tom mais sóbrio mas ainda assim suavemente evocando os azulejos da Casa da Música.',
   },
 ]
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'A Máscaras'
+  const siteDescription =
+    'Expomos aqui o material de altíssima qualidade produzido no Norte.'
 
   return (
     <Layout>
@@ -74,31 +73,24 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2>
+            <h2>A Máscara</h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            Máscaras de proteção social, o problema é que não tenho etiquetas
+            nem garantia de stocks de cores, a única coisa que posso dizer é que
+            o interior é de material 100 por cento algodão.
           </p>
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Learn More
+                Saber mais
               </a>
             </li>
           </ul>
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Trabalho recente</h2>
 
           <Gallery
             images={DEFAULT_IMAGES.map(
@@ -114,18 +106,17 @@ const HomeIndex = () => {
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Full Portfolio
+                Ver mais
               </a>
             </li>
           </ul>
         </section>
 
         <section id="three">
-          <h2>Get In Touch</h2>
+          <h2>Contacto</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            Caso esteja interessado em manter o seu cuspe para si mesmo, eu
+            posso ajudar.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
@@ -136,7 +127,7 @@ const HomeIndex = () => {
                       type="text"
                       name="name"
                       id="name"
-                      placeholder="Name"
+                      placeholder="Nome"
                     />
                   </div>
                   <div className="6u 12u$(xsmall)">
@@ -151,14 +142,14 @@ const HomeIndex = () => {
                     <textarea
                       name="message"
                       id="message"
-                      placeholder="Message"
+                      placeholder="Mensagem"
                       rows="4"
                     ></textarea>
                   </div>
                 </div>
                 <ul className="actions" style={{ marginTop: 30 }}>
                   <li>
-                    <input type="submit" value="Send Message" />
+                    <input type="submit" value="Enviar" />
                   </li>
                 </ul>
               </form>
@@ -167,25 +158,25 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h3 className="icon fa-home">
-                    <span className="label">Address</span>
+                    <span className="label">Morada</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  Uma rua qualquer
                   <br />
-                  Nashville, TN 00000
+                  Norte
                   <br />
-                  United States
+                  Portugal
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  91***34*9
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="#">joanasalvini@***.**</a>
                 </li>
               </ul>
             </div>
