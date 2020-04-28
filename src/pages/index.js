@@ -59,9 +59,9 @@ const DEFAULT_IMAGES = [
 ]
 
 const HomeIndex = () => {
-  const siteTitle = 'A Máscaras'
+  const siteTitle = 'A Máscara'
   const siteDescription =
-    'Expomos aqui o material de altíssima qualidade produzido no Norte.'
+    'Expomos aqui o material de altíssima qualidade produzido no Norte pela senhora Joana Salvini.'
 
   return (
     <Layout>
@@ -77,8 +77,9 @@ const HomeIndex = () => {
           </header>
           <p>
             Máscaras de proteção social, o problema é que não tenho etiquetas
-            nem garantia de stocks de cores, a única coisa que posso dizer é que
-            o interior é de material 100 por cento algodão.
+            nem garantia de stocks de cores. A única coisa que posso dizer é que
+            o interior é de material 100 por cento algodão. Vamos ter que
+            melhorar este parágrafo - quem terá tempo para estas coisas?
           </p>
           <ul className="actions">
             <li>
