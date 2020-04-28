@@ -61,7 +61,7 @@ const DEFAULT_IMAGES = [
 const HomeIndex = () => {
   const siteTitle = 'A Máscara'
   const siteDescription =
-    'Expomos aqui o material de altíssima qualidade produzido no Norte pela senhora Joana Salvini.'
+    'Expomos aqui o material de altíssima qualidade produzido no Norte pela Joana Salvini.'
 
   return (
     <Layout>
@@ -127,7 +127,7 @@ const HomeIndex = () => {
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
               >
-                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="form-name" value="contact-form" />
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
